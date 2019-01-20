@@ -14,9 +14,7 @@ The purpose of this program was to create a simple but effective way to encrypt 
 shifting letters on the alphabet by a given key. While this is a barebones program that doesn't offer anything to boast about, 
 it does serve as a valuable foundation for me to create future programs upon. 
 
-It takes in a String inputted by the user, and then reads over every letter of that String and records its ASCII value through the 
-toASCII() method. From there, it records and saves a new value, this one being created by adding together the ASCII value and the key
-provided by the user. From there, it determines whether the newVal is an alphabetical letter or not, and acts accordingly. 
+It takes in a String inputted by the user, and then reads over every letter of that String and records its ASCII value. From there, it records and saves a new value, this one being created by adding together the ASCII value and the key provided by the user. And then, it determines whether the newVal is an alphabetical letter or not, and acts accordingly. 
 
 -----------------------------------------------
 
