@@ -24,8 +24,7 @@ provided by the user. From there, it determines whether the newVal is an alphabe
 
 SIDE NOTES: 
 
-1. The program automatically converts everything to uppercase as an added layer of security. This allows the message to be less
-apparent by the number of capital letters, while still being readable. 
+1. The program automatically converts everything to uppercase as an added layer of security. This allows the message to be less obvious by the number of capital letters, while still being readable after being encrypted. 
 
 2. I would like to enhance this program by being able to decode messages based on another given key, whether it's the same as the
 encrypted key or different. This is the next step in the evolution of the program, if I continue to add onto this. 
