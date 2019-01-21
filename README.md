@@ -44,5 +44,5 @@ UPDATE (1/21/2019):
 
 UPDATE (1/22/2019):
 
-1. The program's foundation for reading in files based on user input has been implemented. However, an InputMismatchException is being thrown with the way the program is written as of now. Also, the issue outline in the 1/21 update concerning the decryption involving the letter 'Z' is still being debugged. V3.0 of the program may still contain this error, as I have no idea where it's occurring or how to fix it. I know it's simply to do with the letter "wrapping" of the alphabet, but it will take more time to figure out exactly where the error is being caused. 
+1. The program's foundation for reading in files based on user input has been implemented. However, an InputMismatchException is being thrown with the way the program is written as of now. Also, the issue outlined in the 1/21 update concerning decryption involving the letter 'Z' is still being debugged. V3.0 of the program may still contain this error, as I have no idea where it's occurring or how to fix it. I know it's simply to do with the letter "wrapping" of the alphabet, but it will take more time to figure out exactly where the error is being caused. 
 2. Everything else in the program, including the GUI presented in the Console, are working perfectly and the encryption/decryption "services" are working as intended, with consistent results. 
