@@ -61,6 +61,6 @@ UPDATE (1/21/2019) Part III:
 
 Overall, I'm very proud of the work I've done on this program. I'll probably take a couple of days off so I can focus on school stuff as that's far more important to me, but this won't be abandoned. 
 
-Also, I streamed the latest development for this project on Twitch! I might continue this for every subsequent update, and leave a link to the VOD in here at the end of every update section. 
+Also, I streamed the latest development for this project on Twitch! I might continue this for every subsequent update, and leave a link to the VOD in here at the end of every update section. I've also included the .txt files I used to test the program, called encrypt.txt and decrypt.txt.
 
 Today's link: https://www.twitch.tv/videos/367708028 (skip to about six minutes in to skip me fiddling around with the setup). 
