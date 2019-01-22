@@ -135,11 +135,13 @@ public class Encryption {
 		Scanner fileReader = new Scanner(file);
 		String msg = "";
 		int key;
+		int count = 1;
 
 		while (fileReader.hasNext()) {
 			msg = fileReader.next();
 			key = fileReader.nextInt();
-			encrypt(msg, key);
+			println("Message " + count + " is now: " + encrypt(msg, key));
+			count++;
 		}
 		fileReader.close();
 	}
@@ -149,11 +151,13 @@ public class Encryption {
 		Scanner fileReader = new Scanner(file);
 		String msg = "";
 		int key;
+		int count = 1;
 
 		while (fileReader.hasNext()) {
 			msg = fileReader.next();
 			key = fileReader.nextInt();
-			decrypt(msg, key);
+			println("Message " + count + " is now: " + decrypt(msg, key));
+			count++;
 		}
 		fileReader.close();
 	}
@@ -192,7 +196,8 @@ public class Encryption {
 
 		while (cont == true) {
 			println("");
-			println("Please enter the service you want to use: ");
+			println("Welcome to Decode Encryption Services! ");
+			println("Please enter the service you want to utilize: ");
 			println("");
 			println("----------------------------------");
 			println("----------------------------------");
@@ -201,7 +206,7 @@ public class Encryption {
 			println("2. Decrypt a message.");
 			println("3. Read from file.");
 			println("4. Export to file.");
-			println("0. Exit the program.");
+			println("0. Terminate the program.");
 
 			int userIn = kb.nextInt();
 
@@ -228,7 +233,8 @@ public class Encryption {
 				}
 				
 				else {
-					println("Shutting down program...");
+					println("Terminating program...");
+					println("Program has been terminated.");
 					cont = false;
 					break;
 				}
@@ -252,7 +258,8 @@ public class Encryption {
 				}
 				
 				else {
-					println("Shutting down program...");
+					println("Terminating program...");
+					println("Program has been terminated.");
 					cont = false;
 					break;
 				}
@@ -263,13 +270,15 @@ public class Encryption {
 				println("");
 				println("Please enter the service you'd like to use: ");
 				println("");
-				println("1. Encrypt a message.");
-				println("2. Decrypt a message.");
+				println("1. Encrypt one or more messages.");
+				println("2. Decrypt one or more messages.");
 
 				userIn = kb.nextInt();
-
+				println("");
+				
 				if (userIn == 1) {
 					encryptFile(fileName);
+					println("");
 					println("Would you like to continue using the program? (Y/N)");
 					leave = kb.next();
 					
@@ -278,7 +287,8 @@ public class Encryption {
 					}
 					
 					else {
-						println("Shutting down program...");
+						println("Terminating program...");
+						println("Program has been terminated.");
 						cont = false;
 						break;
 					}
@@ -294,7 +304,8 @@ public class Encryption {
 					}
 					
 					else {
-						println("Shutting down program...");
+						println("Terminating program...");
+						println("Program has been terminated.");
 						cont = false;
 						break;
 					}
@@ -336,13 +347,16 @@ public class Encryption {
 					}
 					
 					else {
-						println("Shutting down program...");
+						println("Terminating program...");
+						println("Program has been terminated.");
 						cont = false;
 						break;
 					}
 				}
 			case 0:
-				println("Shutting down program...");
+				println("");
+				println("Terminating program...");
+				println("Program has been terminated.");
 				cont = false;
 				break;
 			default:
