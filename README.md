@@ -53,7 +53,9 @@ UPDATE (1/21/2019) Part II:
 
 UPDATE (1/21/2019) Part III:
 
-1. So, lots to add into this update! First off, the issue with 'Z' has been fixed! The problem was mainly in how I dealt with the leftover value of the key after passing a threshold. Now, instead of subtracting from 90 or 122 (i.e. 'Z' or 'z'), I subtract from 91 and 123, so 'Z'/'z' doesn't get skipped anymore.
+So, lots to add into this update! 
+
+1. First off, the issue with 'Z' has been fixed! The problem was mainly in how I dealt with the leftover value of the key after passing a threshold. Now, instead of subtracting from 90 or 122 (i.e. 'Z' or 'z'), I subtract from 91 and 123, so 'Z'/'z' doesn't get skipped anymore.
 2. The program can now successfully read over .txt files of any length and encrypt/decrypt the messages within using the keys given for each word, based on which option the user selects. 
 3. I've started working on another feature as well. The shell for the program to be able to encrypt messages given by the user and write them to a .txt with a user-given filename is mostly finished. The only problem is that the program only writes the last encrypted message to the file, instead of the total number of messages the user provides. Once that's figured out though, then it should be an easy copy/paste and some very minor tweaking to get the program to be able to encrypt and decrypt messages and then write them to a file. 
 4. Outside of that, minor things that have been added include an updated GUI with the now four different options you can choose, the option for the user to choose whether they want to continue using the program or shut it down, and a default switch case if the user provides an invalid value. 
